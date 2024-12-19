@@ -18,7 +18,7 @@ for step in range(4):
 
             # 2 add contrast stretching
             if step == 2:
-                image[image <= 30] = 0
+                # image[image <= 30] = 0
                 image = exposure.equalize_hist(image)
                 image = (image - (image.min())) / (image.max() - (image.min()))
                 image *= 255
@@ -27,14 +27,12 @@ for step in range(4):
             if step == 3:
                 image[image <= 30] = 0
 
-                image //= 100
-                image *= 100
+                # image //= 85
+                # image *= 85
 
                 image = exposure.equalize_hist(image)
                 image = (image - (image.min())) / (image.max() - (image.min()))
                 image *= 255
-
-                # divide array and then multiply it by same number [50, 70, 120] // 100, * 100 => [0, 0, 100]
 
 
             image = np.array(image).astype(np.uint8)
