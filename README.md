@@ -54,7 +54,7 @@ In summary this plot returns images where head fills specified % of area in imag
 ![skull-size-2](./media/skull-size-2.png)
 
 ### Tumor size
-Similarly to head size I also calculated amount of white pixels inside,<br>
+Similarly to head size I also calculated amount of white pixels inside,
 but this time I used tumor border coordinates to create binary mask and then counted the white pixels in it.
 
 ![tumor-size-1](./media/tumor-size.png)
