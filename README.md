@@ -1,4 +1,4 @@
-<img src="./media/bg.png">
+![bg](./media/bg.png)
 
 # Predicting tumor type and it's location
 In this project I analyzed 'Brain tumor dataset', a T1 weighted image dataset from figshare.
