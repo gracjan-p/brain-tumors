@@ -1,17 +1,42 @@
 ![bg](./media/bg.png)
 
-# Predicting tumor type and it's location
-In this project I analyzed 'Brain tumor dataset', a T1 weighted image dataset from figshare.
-The project is in notebook format (.ipynb) that shows the process of data analysis and building models.
+# Brain tumors
+In this project I analyzed 'Brain tumor dataset', a T1 weighted image dataset from figshare. <br>
+The project is in jupyter notebook format (.ipynb) that shows the process of data analysis and building models.
 
-### In this project you will find:
-- Image data analysis
-- Preprocessing image data
-- Creating neural network models with TensorFlow and Keras
+### The process includes:
+1) **Data exploration**
+   1) Image extraction
+   2) Splitting Data
+   3) Preview images
+   4) Black/White balance
+   5) Skull size
+   6) Class weights
+   7) Feature scaling
+
+2) **1st Model (tumor type)**
+   1) Building a model
+   2) Visualising results
+   3) Testing the model
+
+3) **Predicting tumor location**
+   1) Mask extraction
+   2) Splitting Data
+   3) Preview the masks
+   4) Tumor size
+   5) Feature scaling
+
+4) **2nd Model (tumor location)**
+5) **Conclusion**
 
 ### What I achieved:
 - AI model that predicts tumor type with accuracy of roughly 95%
 - AI model that predicts tumor location based on predicted binary mask
+
+### Future ideas:
+- filter out certain head size
+- border box around predicted tumor localization
+- finish full web/desktop application
 
 # Example features I extracted from data
 ### Head size
