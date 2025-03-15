@@ -11,7 +11,7 @@ The project is in jupyter notebook format (.ipynb) that shows the process of dat
 - ***os, cv2*** for loading images<br>
 *for specific versions check *requirements.txt*
 
-### The full process:
+### The full process includes:
 1) **Data exploration**
    - Image extraction
    - Splitting Data
