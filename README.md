@@ -89,5 +89,3 @@
 
 <div class="plot"><img src="./media/tumor-size.png"></div>
 <div class="plot"><img src="./media/tumor-size-2.png"></div>
-
-s
