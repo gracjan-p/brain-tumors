@@ -11,27 +11,27 @@ The project is in jupyter notebook format (.ipynb) that shows the process of dat
 - ***os, cv2*** for loading images<br>
 *for specific versions check *requirements.txt*
 
-### The process includes:
+### The full process:
 1) **Data exploration**
-   1) Image extraction
-   2) Splitting Data
-   3) Preview images
-   4) Black/White balance
-   5) Skull size
-   6) Class weights
-   7) Feature scaling
+   - Image extraction
+   - Splitting Data
+   - Preview images
+   - Black/White balance
+   - Skull size
+   - Class weights
+   - Feature scaling
 
 2) **1st Model (tumor type)**
-   1) Building a model
-   2) Visualising results
-   3) Testing the model
+   - Building a model
+   - Visualising results
+   - Testing the model
 
 3) **Predicting tumor location**
-   1) Mask extraction
-   2) Splitting Data
-   3) Preview the masks
-   4) Tumor size
-   5) Feature scaling
+   - Mask extraction
+   - Splitting Data
+   - Preview the masks
+   - Tumor size
+   - Feature scaling
 
 4) **2nd Model (tumor location)**
 5) **Conclusion**
