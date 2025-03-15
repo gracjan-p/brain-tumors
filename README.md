@@ -1,5 +1,5 @@
 <div class="img-bg">
-    <img src="./media/bg.png">
+    <img src="./media/bg.jpg">
 </div>
 
 <h1>Predicting tumor type and it's location</h1>
