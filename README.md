@@ -4,6 +4,13 @@
 In this project I analyzed 'Brain tumor dataset', a T1 weighted image dataset from figshare. <br>
 The project is in jupyter notebook format (.ipynb) that shows the process of data analysis and building models.
 
+### Libraries I've used:
+- ***tensorflow, keras, sklearn*** for machine learning
+- ***numpy, scipy, random*** for numerical operations
+- ***matplotlib, seaborn*** for plotting
+- ***os, cv2*** for loading images<br>
+*for specific versions check *requirements.txt*
+
 ### The process includes:
 1) **Data exploration**
    1) Image extraction
