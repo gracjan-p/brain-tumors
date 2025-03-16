@@ -59,3 +59,21 @@ but this time I used tumor border coordinates to create binary mask and then cou
 
 ![tumor-size-1](./media/tumor-size.png)
 ![tumor-size-2](./media/tumor-size-2.png)
+
+
+# Summary
+### What I achieved:
+- AI model that predicts tumor type with accuracy of roughly 95%
+- AI model that predicts tumor location based on predicted binary mask
+
+### Significant improvement noticed after::
+- Weighting classes
+- Adding dropout layers to avoid overfitting
+
+### Future ideas:
+- Filter out certain head size
+- Border box around predicted tumor localization
+- Finish full web/desktop application
+
+I think this is a good starting point to create some kind of application for brain MRI scans.
+It'd predict tumor type and it's location.
