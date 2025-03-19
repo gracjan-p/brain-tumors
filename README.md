@@ -36,16 +36,9 @@ The project is in jupyter notebook format (.ipynb) that shows the process of dat
 4) **2nd Model (tumor location)**
 5) **Conclusion**
 
-### What I achieved:
-- AI model that predicts tumor type with accuracy of roughly 95%
-- AI model that predicts tumor location based on predicted binary mask
-
-### Future ideas:
-- filter out certain head size
-- border box around predicted tumor localization
-- finish full web/desktop application
 
 # { Example features I extracted }
+
 ### Head size
 I calculated amount of white pixels inside image.
 In summary this plot returns images where head fills specified % of area in image.
@@ -62,12 +55,13 @@ but this time I used tumor border coordinates to create binary mask and then cou
 
 
 # { Summary }
+
 ### What I achieved:
 - I learned a lot about convolutional neural networks and how to work with image data
 - AI model that predicts tumor type with accuracy of roughly 95%
 - AI model that predicts tumor location based on predicted binary mask
 
-### Significant improvement noticed after::
+### Significant improvement noticed after:
 - Weighting classes
 - Adding dropout layers to avoid overfitting
 
