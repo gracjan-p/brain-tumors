@@ -1,7 +1,7 @@
 ![bg](./media/bg.png)
 
 # { Introduction }
-In this project I analyzed 'Brain tumor dataset', a T1 weighted image dataset from figshare. <br>
+In this project I analyzed 'Brain tumor dataset', a T1 weighted image dataset from Figshare. <br>
 The project is in jupyter notebook format (.ipynb) that shows the process of data analysis and building models.
 
 ### Libraries I've used:
