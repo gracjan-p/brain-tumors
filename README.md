@@ -63,6 +63,7 @@ but this time I used tumor border coordinates to create binary mask and then cou
 
 # Summary
 ### What I achieved:
+- I learned a lot about convolutional neural networks and how to work with image data
 - AI model that predicts tumor type with accuracy of roughly 95%
 - AI model that predicts tumor location based on predicted binary mask
 
