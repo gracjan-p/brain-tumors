@@ -1,6 +1,6 @@
 ![bg](./media/bg.png)
 
-# Brain tumors
+# { Introduction }
 In this project I analyzed 'Brain tumor dataset', a T1 weighted image dataset from figshare. <br>
 The project is in jupyter notebook format (.ipynb) that shows the process of data analysis and building models.
 
@@ -45,7 +45,7 @@ The project is in jupyter notebook format (.ipynb) that shows the process of dat
 - border box around predicted tumor localization
 - finish full web/desktop application
 
-# Example features I extracted from data
+# { Example features I extracted }
 ### Head size
 I calculated amount of white pixels inside image.
 In summary this plot returns images where head fills specified % of area in image.
@@ -61,7 +61,7 @@ but this time I used tumor border coordinates to create binary mask and then cou
 ![tumor-size-2](./media/tumor-size-2.png)
 
 
-# Summary
+# { Summary }
 ### What I achieved:
 - I learned a lot about convolutional neural networks and how to work with image data
 - AI model that predicts tumor type with accuracy of roughly 95%
